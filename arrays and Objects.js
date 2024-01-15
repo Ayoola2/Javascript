@@ -19,3 +19,6 @@ var list = [
     ["Tiger", "Dog", "Lion"]
 ];
 console.log(list[0] [1]);
+
+
+
