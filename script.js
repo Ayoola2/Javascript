@@ -1,22 +1,22 @@
-var database = [
+var database = [ 
     {
         username: "Ayoola",
         password: "Abiola"
     },
     {
-        username: "James",
+        username: "James",      //Here we have a database with 3 usernames and their respective passwords
         password: "1234"
     },
     {
         username: "Breadman",
         password: "777"
     }
-];
+]; 
 
 var newsFeed = [
     {
         username: "Oreoluwa",
-        timeline: "Today is great day"
+        timeline: "Today is great day" //Here we have the newsfeed which displays in the console if the user enters the correct username and password
     },
     {
         username: "Drake",
@@ -28,7 +28,7 @@ var newsFeed = [
 
 function isUserValid(user, pass){
     for (var i=0; i < database.length; i++){
-        if(database[i].user === user && database[i].pass === pass ){
+        if(database[i].user === user && database[i].pass === pass ){ // This checks if the user enters the correct username and password in the database
             return true;
         } 
     } 
